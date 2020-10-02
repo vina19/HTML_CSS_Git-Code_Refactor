@@ -1,13 +1,16 @@
+/* Apply  to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Apply background color to the body of the website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Apply the padding, font style, background color for the box, and font color to the header of the website */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* Apply display: inline-block to the heading1 title inside the header, so 
+it can stay next to the other elements, such as the menu in the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Apply a different color to the header title, specifically for its "seo" part of the title */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Apply the position of the texts, font style, and font size to the menu tabs inside the top header */
 .top-header-menu {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,32 @@ body {
     font-size: 20px;
 }
 
+/* Apply only to the list of the menu tabs and this removed the list style type */
 .top-header-menu ul {
     list-style-type: none;
 }
 
+/* Apply to the list of the menu tabs which show the list horizontally instead of vertically
+and set the left margin */
 .top-header-menu ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Apply color and not set the text decoration to the all ot the anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Apply font size to the all paragraph texts */
 p {
     font-size: 16px;
 }
 
+/* Apply to the main image of the website. Set the image size, set the bottom margin,
+access the background image from the images folder inside the css folder, set the background size to 
+cover the entire website, and center the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +74,22 @@ p {
     background-position: center;
 }
 
+/* Apply to the image inside the first and the third content on the right of the website. 
+This code make the image stay on the left of the container and set the position by set its right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Apply to the image inside the second content on the right of the website.
+This code make the image stay on the right of the container and set the position by set its left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Apply to all of the three contents on the right of the website.
+This code set the width of the box,    */
 .content {
     width: 75%;
     display: inline-block;
@@ -77,7 +98,7 @@ p {
 
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 38px;
     clear: both;
     float: right;
     width: 20%;
@@ -86,72 +107,31 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Put the all the benefits together if they have the same style to eliminate a repeatation of the code */
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3, 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img, 
+.benefit-brand img, 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+.search-engine-optimization, 
+.online-reputation-management, 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,28 +141,14 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
