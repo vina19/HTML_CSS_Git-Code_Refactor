@@ -3,11 +3,11 @@
 #### This repository is where I use the existing code and refactor it to make it more accessible. Moreover, to make the code meet a specific accessibility standards to satisfy the client, I have to make sure that all the semantic elements are in its appropriate place, use the right properties or selectors to styling and positioning purpose, organize the CSS file to follow the semantic structure of the HTML elements, use the accessible alt attributes in all of the img tags, choose a descriptive and consistent title or name, and all the elements and element attributes have to be in sequintal order.
 
 ## Installation
-#### In your terminal, clone this to the folder of your choice.
+#### - In your terminal, clone this to the folder of your choice.
 
     git clone git@github.com:vina19/HTML_CSS_Git-Code_Refactor.git
 
-#### Access the folder with your favorite code editor.
+#### - Access the folder with your favorite code editor.
 
 ## Project Example
 
