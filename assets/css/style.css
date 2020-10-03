@@ -66,7 +66,7 @@ p {
 access the background image from the images folder inside the css folder, set the background size to 
 cover the entire website, and center the image */
 .hero {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -74,28 +74,30 @@ cover the entire website, and center the image */
     background-position: center;
 }
 
-/* Apply to the image inside the first and the third content on the right of the website. 
+/* Apply to the image inside the first and the third content. 
 This code make the image stay on the left of the container and set the position by set its right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Apply to the image inside the second content on the right of the website.
+/* Apply to the image inside the second content.
 This code make the image stay on the right of the container and set the position by set its left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Apply to all of the three contents on the right of the website.
-This code set the width of the box,    */
+/* Apply to all of the three contents on the left of the website.
+This code set the width of the box, create inline block, and set the left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Apply to the box on the far right. Set the right margin, I changed the padding, so that its align to the contents boxes,
+clear the float on both sides, set to only float on the right, set the width, height, font style and the color of the box */
 .benefits {
     margin-right: 20px;
     padding: 38px;
@@ -115,6 +117,8 @@ This code set the width of the box,    */
     color: #ffffff;
 }
 
+/* Apply bottom margin and align the text to the center for the title on the benefits list inside
+the box on the right of the website */
 .benefit-lead h3,
 .benefit-brand h3, 
 .benefit-cost h3 {
@@ -122,6 +126,8 @@ This code set the width of the box,    */
     text-align: center;
 }
 
+/* Display the images inside the benefits box on the right of the website
+as a block, set the margin, and the max width */
 .benefit-lead img, 
 .benefit-brand img, 
 .benefit-cost img {
@@ -130,6 +136,7 @@ This code set the width of the box,    */
     max-width: 150px;
 }
 
+/* Apply to all of the three contents on the left side of the website */
 .search-engine-optimization, 
 .online-reputation-management, 
 .social-media-marketing {
@@ -141,12 +148,14 @@ This code set the width of the box,    */
     color: #ffffff;
 }
 
+/* Apply to all images inside of the three contents on the left side of the website */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Apply to the all the contents title */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -154,6 +163,7 @@ This code set the width of the box,    */
     font-size: 36px;
 }
 
+/* Apply padding, clear both of the float, set the font-family, and align the text to the center for the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -161,6 +171,7 @@ This code set the width of the box,    */
     text-align: center;
 }
 
+/* Make the fon size smaller for the second footer */
 .footer h2 {
     font-size: 20px;
 }
